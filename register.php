@@ -27,7 +27,7 @@
 
 			<div class="col-lg-offset-3 col-lg-6">
 				<div class="well">
-					<form method="GET" action="welcome.php" class="form-horizontal">
+					<form method="POST" action="welcome.php" class="form-horizontal">
 						
 						<div class="form-group">
 							<label class="control-label col-lg-4">
