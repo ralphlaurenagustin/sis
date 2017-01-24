@@ -54,7 +54,8 @@
 							"Your birthday is on: <h1><p hidden>" . $birthDate . "</p></h1><br />" . 
 							"Your email address: <h1><p hidden>" . $emailAddress . "</p></h1><br />" .
 							"Your password: <h1><p hidden>" . $password . "</p></h1><br />" .
-				"<img src ='http://gifdanceparty.giphy.com/assets/dancers/pumpgirl.gif' />" .
+				"<p hidden><img src ='http://gifdanceparty.giphy.com/assets/dancers/pumpgirl.gif' />" .
+				"<img src ='http://gifdanceparty.giphy.com/assets/dancers/pumpgirl.gif' /></p>" .
 		"<h1>THANK YOU VERY MUCH FOR SIGNING UP!</h1><br />" . "The time is " . date('r');
 				?>
 				
