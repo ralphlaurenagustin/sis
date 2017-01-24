@@ -50,10 +50,12 @@
 				<div class="well">
 				
 				
-				<?php echo "<h1>Welcome, " . $firstName . " " . $lastName . "!</h1><br />" .
-		"Your ID number is " . $studentNo . " and your birthday is on " . $birthDate .
-		"!<br />" . "Please verify your account using your email address: " . $emailAddress . ". <br />" .
-		"<h1>THANK YOU VERY MUCH!</h1><br />" . "The time is " . date('r');
+				<?php echo "Your ID number is: <h1><p hidden>" . $studentNo . "</p></h1><br/>" .
+							"Your birthday is on: <h1><p hidden>" . $birthDate . "</p></h1><br />" . 
+							"Your email address: <h1><p hidden>" . $emailAddress . "</p></h1><br />" .
+							"Your password: <h1><p hidden>" . $password . "</p></h1><br />" .
+				"<img src ='http://gifdanceparty.giphy.com/assets/dancers/pumpgirl.gif' />" .
+		"<h1>THANK YOU VERY MUCH FOR SIGNING UP!</h1><br />" . "The time is " . date('r');
 				?>
 				
 				</div>
