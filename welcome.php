@@ -10,25 +10,36 @@
 		$password = $_POST['pwd'];
 		$birthDate = $_POST['bday'];
 
-		echo "<h1>Welcome, " . $firstName . " " . $lastName . "!</h1><br />" .
-		"Your ID number is " . $studentNo . " and your birthday is on " . $birthDate .
-		"!<br />" . "Please verify your account using your email address: " . $emailAddress . ". <br />" .
-		"<h1>THANK YOU VERY MUCH!</h1><br />" . "The time is " . date('r');
-
     }
     else
     {
     	header('location: register.php'); //redirecting pages in PHP
     }
 ?>
+
 <!DOCTYPE html>
 <html>
+	<head>
+		<title><?php echo "WELCOME " . $firstName ?></title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".btn1").click(function(){
+				$("p").fadeIn(2000, function(){
+				});
+			});
+			$(".btn2").click(function(){
+				$("p").fadeOut(2000, function(){
+				});
+			});
+		});
+		</script>
+		
+		
+	</head>
 
-<head>
-	<title>WELCOME PAGE</title>
-</head>
-
-<body>
-</body>
+	<body >
+	</body>
 
 </html>
