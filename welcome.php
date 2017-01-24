@@ -39,7 +39,37 @@
 		
 	</head>
 
-	<body >
+	<body background="https://s-media-cache-ak0.pinimg.com/originals/89/ea/66/89ea66653c891c5eef747846379b12ea.jpg">
+		
+		<div class="container">
+			<h1 class="text-center"><font color="white" style="font-family:	Impact" size="30">
+				<?php echo "<h1>Welcome, " . $firstName . " " . $lastName . "!</h1><br />" ?>
+			</font></h1>
+
+			<div class="col-lg-offset-3 col-lg-6">
+				<div class="well">
+				
+				
+				<?php echo "<h1>Welcome, " . $firstName . " " . $lastName . "!</h1><br />" .
+		"Your ID number is " . $studentNo . " and your birthday is on " . $birthDate .
+		"!<br />" . "Please verify your account using your email address: " . $emailAddress . ". <br />" .
+		"<h1>THANK YOU VERY MUCH!</h1><br />" . "The time is " . date('r');
+				?>
+				
+				</div>
+				
+			<button class="btn1">SHOW CREDENTIALS</button>
+			<button class="btn2">HIDE CREDENTIALS</button>
+			
+			<br />
+			
+			<br />
+			
+			</div>
+
+		</div>
+
+				
 	</body>
 
 </html>
