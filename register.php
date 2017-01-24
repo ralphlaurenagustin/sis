@@ -20,13 +20,14 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
 	</head>
 
-	<body>
-
+	<body background="https://s-media-cache-ak0.pinimg.com/originals/89/ea/66/89ea66653c891c5eef747846379b12ea.jpg">
+		
 		<div class="container">
-			<h1 class="text-center">Student Registration</h1>
+			<h1 class="text-center"><font color="white" style="font-family:	Impact" size="32">Student Registration</font></h1>
 
 			<div class="col-lg-offset-3 col-lg-6">
 				<div class="well">
+				
 					<form method="POST" action="welcome.php" class="form-horizontal">
 						
 						<div class="form-group">
