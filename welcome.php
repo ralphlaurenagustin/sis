@@ -25,11 +25,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
-			$(".btn1").click(function(){
+			$("#btn1").click(function(){
 				$("p").fadeIn(2000, function(){
 				});
 			});
-			$(".btn2").click(function(){
+			$("#btn2").click(function(){
 				$("p").fadeOut(2000, function(){
 				});
 			});
@@ -60,8 +60,8 @@
 				
 				</div>
 				
-			<button class="btn1">SHOW CREDENTIALS</button>
-			<button class="btn2">HIDE CREDENTIALS</button>
+			<button id="btn1" class="btn btn-success">SHOW CREDENTIALS</button>
+			<button id="btn2" class="btn btn-danger">HIDE CREDENTIALS</button>
 			
 			<br />
 			
